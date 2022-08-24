@@ -1,4 +1,4 @@
-const definition:string = 'A/d`\|{=]}';
+const definition:RegEx = 'A/d`\|{=]}';
 
 export class DEF() {
   constructor(args: string[]) {
@@ -6,6 +6,9 @@ export class DEF() {
   }
   
   public on(regex: RegEx) {
-    return regex;
+    return parse(regex);
   }
 }
+
+
+console.log(new DEF().on(definition));
