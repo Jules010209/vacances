@@ -1,6 +1,6 @@
 const definition:RegEx = 'A/d`\|{=]}';
 
-export class DEF() {
+export class DEF {
   constructor(args: string[]) {
     super(args);
   }
@@ -19,7 +19,7 @@ interface event {
   error: Error()
 }
 
-export class WebHoock() {
+export class WebHoock {
   constructor(id: number, url:URL) {
     super(id, url);
   }
