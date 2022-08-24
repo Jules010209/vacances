@@ -10,5 +10,19 @@ export class DEF() {
   }
 }
 
-
 console.log(new DEF().on(definition));
+
+// WEBHOOCKS
+
+interface event {
+  interact: function(),
+  error: Error()
+}
+
+export class WebHoock() {
+  constructor(id: number, url:URL) {
+    super(id, url);
+  }
+  
+  public on(events: event = () => listener: (string[])): this;
+}
