@@ -25,4 +25,8 @@ export class WebHoock {
   }
   
   public on(events: event = () => listener: (string[])): this;
+
+  public get(str: string) {
+    if(str !typeof string) return Error('STR is a string');
+  }
 }
