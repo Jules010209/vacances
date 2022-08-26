@@ -28,5 +28,13 @@ export class WebHoock {
 
   public get(str: string) {
     if(str !typeof string) return Error('STR is a string');
+    
+    let arr = [];
+    
+    arr.push(str);
+    
+    arr.join('\n');
+    
+    
   }
 }
