@@ -35,6 +35,6 @@ export class WebHoock {
     
     arr.join('\n');
     
-    
+    return 
   }
 }
