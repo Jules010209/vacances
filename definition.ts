@@ -43,6 +43,6 @@ export class WebHoock {
   }
 
   public how(set:set, get:get) {
-    return {}
+    return { set, }
   }
 }
