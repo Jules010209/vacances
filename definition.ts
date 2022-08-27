@@ -39,6 +39,6 @@ export class WebHoock {
   }
 
   public set(setter:Set()) {
-    retrun
+    retrun setter;
   }
 }
