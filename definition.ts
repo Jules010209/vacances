@@ -41,4 +41,8 @@ export class WebHoock {
   public set(setter:Set()) {
     retrun setter;
   }
+
+  public how(set:set, get:get) {
+    return {}
+  }
 }
