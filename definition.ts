@@ -38,5 +38,7 @@ export class WebHoock {
     return arr.toString();
   }
 
-  public set(setter:Set()) {}
+  public set(setter:Set()) {
+    retrun
+  }
 }
