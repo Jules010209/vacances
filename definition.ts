@@ -38,5 +38,5 @@ export class WebHoock {
     return arr.toString();
   }
 
-  public
+  public set(setter:Set()) {}
 }
