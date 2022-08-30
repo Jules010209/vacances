@@ -46,3 +46,5 @@ export class WebHoock {
     return { set, get };
   }
 }
+
+module.exports = 
