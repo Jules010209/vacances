@@ -47,4 +47,4 @@ export class WebHoock {
   }
 }
 
-module.exports = 
+module.exports = {  };
