@@ -45,6 +45,10 @@ export class WebHoock {
   public how(set:set, get:get) {
     return { set, get };
   }
+
+  public do(setter: new Set()) {
+    return setter
+  }
 }
 
 module.exports = { DEF, WebHoock };
