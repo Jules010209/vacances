@@ -61,7 +61,7 @@ export class WebHoock {
       i++;
     }
     
-    return;
+    return { arrays.toString() };
   }
 }
 
