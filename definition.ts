@@ -1,3 +1,5 @@
+// This is the "FAKE" code. You can't run this code because there are lot of error.
+
 const definition:RegEx = 'A/d`\|{=]}';
 
 export class DEF {
@@ -48,6 +50,12 @@ export class WebHoock {
 
   public do(setter: new Set()) {
     return setter;
+  }
+
+  public test() {
+    for(let i = 0; i < 1000; i++) {
+      return {};
+    }
   }
 }
 
