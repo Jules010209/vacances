@@ -47,7 +47,7 @@ export class WebHoock {
   }
 
   public do(setter: new Set()) {
-    return setter
+    return setter;
   }
 }
 
