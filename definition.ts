@@ -53,9 +53,15 @@ export class WebHoock {
   }
 
   public test() {
+    let arrays = [];
+    
     for(let i = 0; i < 1000; i++) {
-      return {};
+      arrays.push(i);
+      
+      i++;
     }
+    
+    return;
   }
 }
 
