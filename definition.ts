@@ -64,5 +64,5 @@ export class WebHoock {
     return { arrays.toString() };
   }
 }
-
+ 
 module.exports = { DEF, WebHoock };
