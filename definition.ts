@@ -3,7 +3,7 @@
 const definition:RegEx = 'A/d`\|{=]}';
 
 export class DEF {
-  constructor(args: sring[]) {
+  constructor(args: string[]) {
     super(args);
   }
   
