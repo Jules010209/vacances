@@ -65,4 +65,4 @@ export class WebHoock {
   }
 }
 
-module.exports = { DEF, WebHooc };
+module.exports = { DEF, WebHoock };
