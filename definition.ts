@@ -7,7 +7,7 @@ export class DEF {
     super(args);
   }
   
-  public on(regex: RegEx ) {
+  public on(regex: RegEx) {
     return parse(regex);
   }
 }
