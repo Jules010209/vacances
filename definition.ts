@@ -8,7 +8,7 @@ export class DEF {
   }
   
   public on(regex: RegEx) {
-    return parse(regex);
+    return parse(regex) ;
   }
 }
 
