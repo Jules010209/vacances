@@ -1,6 +1,6 @@
 // This is the "FAKE" code. You can't run this code because there are lot of error.
 
-const definition:RegEx = 'A/d`\|{=]}';
+const definition:RegEx = 'A/d`\|{=]}' ;
 
 export class DEF {
   constructor(args: string[]) {
