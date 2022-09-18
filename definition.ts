@@ -22,7 +22,7 @@ interface event {
 }
 
 export class WebHoock {
-  constructor(id: number, url:URL)  {
+  constructor(id: number, url:URL) {
     super(id, url);
   }
   
