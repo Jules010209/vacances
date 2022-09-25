@@ -2,7 +2,6 @@
 
 const definition:RegEx = 'A/d`\|{=]}';
 
-
 export class DEF {
   constructor(args: string[]) {
     super(args);
