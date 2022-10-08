@@ -4,7 +4,7 @@ const definition:RegEx = 'A/d`\|{=]}';
 
 export class DEF {
   constructor(args: string[]) {
-    super(args); 
+    super(args);
   }
   
   public on(regex: RegEx) {
