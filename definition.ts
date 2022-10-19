@@ -9,7 +9,7 @@ export class DEF {
   
   public on(regex: RegEx) {
     return parse(regex);
-  } 
+  }
 }
 
 console.log(new DEF().on(definition));
